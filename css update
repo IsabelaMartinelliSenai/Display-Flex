@@ -5,34 +5,42 @@ body {
 }
 
 .esquerda {
+  display: block;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .meio {
+  display: block;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .direita {
+  display: block;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
 .mesa {
-  width: 300px;
-  height: 350px;
-  /* margin: 25px; */
-  margin-bottom: 70px;
+  width: 280px;
+  height: 200px;
+  margin-bottom: 25px;
   background-color: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .carrinhodepc {
-  width: 300px;
-  height: 350px;
+  width: 280px;
+  height: 200px;
   background-color: grey;
   display: flex;
   justify-content: center;
@@ -40,7 +48,11 @@ body {
 }
 
 .notebook {
-  width: 200px;
-  height: 250px;
+  width: 180px;
+  height: 130px;
   background-color: lightgrey;
+}
+
+ul {
+  list-style: none;
 }
